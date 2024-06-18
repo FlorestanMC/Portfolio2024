@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 export default function Landingblock() {
   return (
-    <div>
-        <div>
+    <div className='flex-col mt-20'>
+        <div className='flex'>
             <div className='flex-col'>
                 <div>
-                    <h1 className='font-bold text-[156px]'>
+                    <h1 className='font-bold text-[#FDC93F] text-[146px] mr-6 relative bottom-12 drop-shadow-[2px_3px_0_0] shadow-black'>
                         Florestan
                     </h1>
                 </div>
@@ -35,7 +35,7 @@ export default function Landingblock() {
                 </div>
             </div>
             <div>
-                <img src="" alt="" />
+                <img src="Mon_Parcours.png" alt="Illustration des différentes étapes de mon parcours scolaire" />
             </div>
         </div>
         <div className='flex'>

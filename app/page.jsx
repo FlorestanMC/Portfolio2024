@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Header from "./components/header/Header";
-import Landingblock from "./components/landingblock/landingblock";
+import Landingblock from "./components/landingblock/Landingblock";
 
 
 export default function Home() {
   return (
 
-      <body>
+      
         <div className="mt-14 mx-28">
           <header>
             <Header></Header>
@@ -15,7 +15,7 @@ export default function Home() {
               <Landingblock></Landingblock>
           </main> 
         </div>  
-      </body>
+      
 
    
   );
