@@ -28,3 +28,12 @@ h1 {
   -webkit-text-stroke: 1px black;
   text-shadow: 4px 3px 0 black;
 }
+
+#h3-isis {
+  -webkit-text-stroke: 1px black; 
+}
+
+#last-proj {
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 2px 0 black;
+}
